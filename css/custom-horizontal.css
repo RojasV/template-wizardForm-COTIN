@@ -1,0 +1,307 @@
+
+.no-m 		{ margin: 0; }
+.no-p 		{ padding: 0; }
+.no-b 		{ border: none; }
+
+.cursor-pointer 	{ cursor: pointer; }
+
+/* 
+ * Margin classes 
+ */
+
+.m 			{ margin: 15px; }
+.m-v 		{ margin: 15px 0; }
+.m-h 		{ margin: 0 15px; }
+
+.m-t-xxs 	{ margin-top: 5px; }
+
+.m-r-xxs 	{ margin-right: 5px; }
+
+.m-b-xxs 	{ margin-bottom: 5px; }
+
+.m-l-xxs 	{ margin-left: 5px; }
+
+
+.m-t-xs 	{ margin-top: 10px; }
+
+.m-r-xs 	{ margin-right: 10px; }
+
+.m-b-xs 	{ margin-bottom: 10px; }
+
+.m-l-xs 	{ margin-left: 10px; }
+
+
+.m-t-sm 	{ margin-top: 15px; }
+
+.m-r-sm 	{ margin-right: 15px; }
+
+.m-b-sm 	{ margin-bottom: 15px; }
+
+.m-l-sm 	{ margin-left: 15px; }
+
+
+.m-t-md 	{ margin-top: 20px; }
+
+.m-r-md 	{ margin-right: 20px; }
+
+.m-b-md 	{ margin-bottom: 20px; }
+
+.m-l-md 	{ margin-left: 20px; }
+
+
+.m-t-lg 	{ margin-top: 25px; }
+
+.m-r-lg 	{ margin-right: 25px; }
+
+.m-b-lg 	{ margin-bottom: 25px; }
+
+.m-l-lg 	{ margin-left: 25px; }
+
+
+.m-t-xxl 	{ margin-top: 30px; }
+
+.m-r-xxl 	{ margin-right: 30px; }
+
+.m-b-xxl 	{ margin-bottom: 30px; }
+
+.m-l-xxl 	{ margin-left: 30px; }
+
+
+.m-t-n-xxs 	{ margin-top: -5px; }
+
+.m-r-n-xxs 	{ margin-right: -5px; }
+
+.m-b-n-xxs 	{ margin-bottom: -5px; }
+
+.m-l-n-xxs 	{ margin-left: -5px; }
+
+
+.m-t-n-xs 	{ margin-top: -10px; }
+
+.m-r-n-xs 	{ margin-right: -10px; }
+
+.m-b-n-xs 	{ margin-bottom: -10px; }
+
+.m-l-n-xs 	{ margin-left: -10px; }
+
+
+.m-t-n-sm 	{ margin-top: -15px; }
+
+.m-r-n-sm 	{ margin-right: -15px; }
+
+.m-b-n-sm 	{ margin-bottom: -15px; }
+
+.m-l-n-sm 	{ margin-left: -15px; }
+
+
+.m-t-n-md 	{ margin-top: -20px; }
+
+.m-r-n-md 	{ margin-right: -20px; }
+
+.m-b-n-md 	{ margin-bottom: -20px; }
+
+.m-l-n-md 	{ margin-left: -20px; }
+
+
+.m-t-n-lg 	{ margin-top: -25px; }
+
+.m-r-n-lg 	{ margin-right: -25px; }
+
+.m-b-n-lg 	{ margin-bottom: -25px; }
+
+.m-l-n-lg 	{ margin-left: -25px; }
+
+
+.m-t-n-xxl 	{ margin-top: -30px; }
+
+.m-r-n-xxl 	{ margin-right: -30px; }
+
+.m-b-n-xxl 	{ margin-bottom: -30px; }
+
+.m-l-n-xxl 	{ margin-left: -30px; }
+
+
+/*
+ * Padding classes
+ */
+
+.p 			{ padding: 15px; }
+
+.p-h-xxs 	{ padding-left: 5px; padding-right: 5px; }
+
+.p-h-xs 	{ padding-left: 10px; padding-right: 10px; }
+
+.p-h-sm 	{ padding-left: 15px; padding-right: 15px; }
+
+.p-h-md 	{ padding-left: 20px; padding-right: 20px; }
+
+.p-h-lg 	{ padding-left: 25px; padding-right: 25px; }
+
+.p-h-xxl 	{ padding-left: 30px; padding-right: 30px; }
+
+.p-h-big 	{ padding-left: 40px; padding-right: 40px; }
+
+
+.p-v-xxs 	{ padding-top: 5px; padding-bottom: 5px; }
+
+.p-v-xs 	{ padding-top: 10px; padding-bottom: 10px; }
+
+.p-v-sm 	{ padding-top: 15px; padding-bottom: 15px; }
+
+.p-v-md 	{ padding-top: 20px; padding-bottom: 20px; }
+
+.p-v-lg 	{ padding-top: 25px; padding-bottom: 25px; }
+
+.p-v-xxl 	{ padding-top: 30px; padding-bottom: 30px; }
+
+.p-v-big 	{ padding-top: 40px; padding-bottom: 40px; }
+
+.p-bottom 	{ padding-bottom: 25px; }
+
+
+/* Útil para tabelas */
+.table>tbody>tr>td.pad-0-level,  .table>tbody>tr>th.pad-0-level,  .table>tfoot>tr>td.pad-0-level,  .table>tfoot>tr>th.pad-0-level,  .table>thead>tr>td.pad-0-level,  .table>thead>tr>th.pad-0-level {
+	padding-left: 20px;
+	vertical-align: middle;
+}
+
+.table>tbody>tr>td.pad-1-level,  .table>tbody>tr>th.pad-1-level,  .table>tfoot>tr>td.pad-1-level,  .table>tfoot>tr>th.pad-1-level,  .table>thead>tr>td.pad-1-level,  .table>thead>tr>th.pad-1-level {
+	padding-left: 45px;
+	vertical-align: middle;
+}
+
+.table>tbody>tr>td.pad-2-level,  .table>tbody>tr>th.pad-2-level,  .table>tfoot>tr>td.pad-2-level,  .table>tfoot>tr>th.pad-2-level,  .table>thead>tr>td.pad-2-level,  .table>thead>tr>th.pad-2-level {
+	padding-left: 70px;
+	vertical-align: middle;
+}
+
+.table>tbody>tr>td.pad-3-level,  .table>tbody>tr>th.pad-3-level,  .table>tfoot>tr>td.pad-3-level,  .table>tfoot>tr>th.pad-3-level,  .table>thead>tr>td.pad-3-level,  .table>thead>tr>th.pad-3-level {
+	padding-left: 95px;
+	vertical-align: middle;
+}
+
+.table>tbody>tr>td.pad-4-level,  .table>tbody>tr>th.pad-4-level,  .table>tfoot>tr>td.pad-4-level,  .table>tfoot>tr>th.pad-4-level,  .table>thead>tr>td.pad-4-level,  .table>thead>tr>th.pad-4-level {
+	padding-left: 120px;
+	vertical-align: middle;
+}
+
+.table>tbody>tr>td.pad-5-level,  .table>tbody>tr>th.pad-5-level,  .table>tfoot>tr>td.pad-5-level,  .table>tfoot>tr>th.pad-5-level,  .table>thead>tr>td.pad-5-level,  .table>thead>tr>th.pad-5-level {
+	padding-left: 150px;
+	vertical-align: middle;
+}
+
+
+/*
+ * Table
+ */
+
+.table-bordered, .table-bordered>tbody>tr>td, 
+.table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, 
+.table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, 
+.table-bordered>thead>tr>th {
+    border: 1px solid #c3c3c3;
+}
+
+
+
+/*
+ * Text classes
+ */
+
+.to-upper 	{ text-transform: uppercase; }
+.to-lower 	{ text-transform: lowercase; }
+
+.topic-title {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.text-indent {
+	display:inline-block;
+	text-indent: 35px;
+}
+
+	.text-indent a {
+		margin-right: 4px;
+	}
+
+.data-hint {
+    cursor: pointer;
+	font-weight: 600;   
+}
+
+.remove-underline {
+	text-decoration: none;
+	}
+
+	.remove-underline:hover {
+    	text-decoration: none;
+ 	}
+
+.paragraph {
+    /*padding: 0 25px;*/
+    margin: 10px 0 25px 0;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.description {
+	font-size: 13px;
+	text-align: justify;
+	vertical-align: middle;
+}
+
+
+/*
+ * Tags
+ */
+.tag-area {
+	display:inline-block;
+	text-indent: 35px;
+	margin: 10px 0;
+}
+
+.tag-label {
+ 	font-size: 13px;
+    line-height: 30px;
+}
+
+@media (max-width: 763px) {  
+	.tag-area {
+    	text-indent: 0 
+	} 
+}
+
+
+/*
+ * Other classes
+ */
+
+ .catalog {
+ 	margin: 0 60px;
+ }
+
+ @media (max-width:991px) {
+    .catalog {
+ 		margin: 0 25px;
+ 	}
+}
+
+.table-folders {
+	margin: 0 auto;
+	max-width: 1060px;
+}
+
+.auto-resize-image {
+	height: auto;
+    max-width: 100%;
+    border: 0;
+    display: block;
+    margin: 0 auto;	
+}
+
+.light-shadow {
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+}
