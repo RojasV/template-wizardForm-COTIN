@@ -6272,7 +6272,7 @@ Form Layouts
   margin-bottom: 0; }
 
 .form-horizontal .radio > span {
-  margin-top: -5px; }
+  margin-top: -1px; }
 
 /* Rows seperated form layout */
 .form .form-row-seperated .portlet-body {

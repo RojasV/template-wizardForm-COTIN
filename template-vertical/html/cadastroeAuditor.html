@@ -121,19 +121,6 @@
     <div class="clearfix"> </div>
 
     <div class="page-container" style="background-color: white;">
-        <div class="row">
-            <div class="col-md-12" style="text-align: center;">
-                <span style="font-weight: bold; font-size: 20px; ">Bem-vindo(a) À Solicitação de Cadastro do
-                    ICMS:</span>
-            </div>
-            <div class="col-md-12" style="text-align: center;">
-                <span>Nome do usuário*</span>
-            </div>
-            <div class="col-md-12" style="text-align: center;">
-                <span>CPF do ususário*</span>
-            </div>
-        </div>
-
         <div class="page-content-wrapper">
             <!-- BEGIN CONTENT BODY -->
             <div class="portlet light bordered" id="form_wizard_1">
@@ -163,7 +150,7 @@
                                             <span class="number"> 1 </span>
                                             <br>
                                             <span class="desc">
-                                                <i class="fa fa-check"></i> Dados Principais </span>
+                                                <i class="fa fa-check"></i> Dados do Contribuinte </span>
                                         </a>
                                     </li>
                                     <li>
@@ -171,7 +158,7 @@
                                             <span class="number"> 2 </span>
                                             <br>
                                             <span class="desc">
-                                                <i class="fa fa-check"></i> Dados de Identificação </span>
+                                                <i class="fa fa-check"></i> Matéria Tributável (Fato Gerador) </span>
                                         </a>
                                     </li>
 
@@ -180,7 +167,8 @@
                                             <span class="number"> 3 </span>
                                             <br>
                                             <span class="desc">
-                                                <i class="fa fa-check"></i> Endereço</span>
+                                                <i class="fa fa-check"></i> Infrações / Demonstrativo do Crédito
+                                                Tributário</span>
                                         </a>
                                     </li>
 
@@ -189,7 +177,7 @@
                                             <span class="number"> 4 </span>
                                             <br>
                                             <span class="desc">
-                                                <i class="fa fa-check"></i> Segurança</span>
+                                                <i class="fa fa-check"></i> Anexos</span>
                                         </a>
                                     </li>
 
@@ -198,7 +186,7 @@
                                             <span class="number"> 5 </span>
                                             <br>
                                             <span class="desc">
-                                                <i class="fa fa-check"></i> Verificação e Confirmação</span>
+                                                <i class="fa fa-check"></i> Visualização</span>
                                         </a>
                                     </li>
 
@@ -225,120 +213,189 @@
                                                 <div class="caption">
                                                     Informe seus Dados Principais abaixo
                                                 </div>
-
                                             </div>
                                             <div class="portlet-body">
                                                 <div class="row">
-
-
                                                     <div class="tab-content">
                                                         <div class="col-md-12"
-                                                            style="display: flex; justify-content: space-around; flex-direction: row; flex-wrap: wrap;">
-
-                                                            <div class="form-group col-md-6">
-                                                                <label class="control-label">CPF/CNPJ
+                                                            style="display: flex; justify-content: space-around; flex-direction: row; flex-wrap: wrap; justify-content: flex-start;">
+                                                            <div class="form-group col-md-12"
+                                                                style="display: flex; flex-direction: column; justify-content: flex-start;">
+                                                                <label class="control-label"
+                                                                    style="text-align: left;">SELECIONE A DESCRIÇÃO DA
+                                                                    MATÉRIA TRIBUTÁVEL (FATO GERADOR)
                                                                     <span class="required"> * </span>
                                                                 </label>
-                                                                <div class="">
-                                                                    <input id="cep" type="text" class="form-control">
-
+                                                                <div class="form-group" style="margin-top: 20px;">
+                                                                    <div class="col-md-12">
+                                                                        <div class="radio-list"
+                                                                            style="display: flex; flex-direction: row;">
+                                                                            <label>
+                                                                                <div class="radio"
+                                                                                    style="padding-top: 3px !important;"
+                                                                                    id="uniform-optionsRadios22"><span
+                                                                                        class=""
+                                                                                        style="margin-top: -1px !important;"><input
+                                                                                            type="radio"
+                                                                                            name="optionsRadios"
+                                                                                            id="icms" value="icms"
+                                                                                            checked=""></span></div>
+                                                                                ICMS
+                                                                            </label>
+                                                                            <label>
+                                                                                <div class="radio"
+                                                                                    style="padding-top: 3px !important;"
+                                                                                    id="uniform-optionsRadios23"><span
+                                                                                        class=""
+                                                                                        style="margin-top: -1px !important"><input
+                                                                                            type="radio"
+                                                                                            name="optionsRadios"
+                                                                                            id="itcd" value="itcd"
+                                                                                            checked=""></span></div>
+                                                                                ITCD
+                                                                            </label>
+                                                                            <label>
+                                                                                <div class="radio"
+                                                                                    style="padding-top: 3px !important;"
+                                                                                    id="uniform-optionsRadios24"><span
+                                                                                        class=""
+                                                                                        style="margin-top: -1px !important;"><input
+                                                                                            type="radio"
+                                                                                            name="optionsRadios"
+                                                                                            id="taxa" value="taxa"
+                                                                                            checked=""></span></div>
+                                                                                TAXA
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
 
                                                             </div>
-                                                            <div class="form-group col-md-6">
-                                                                <label class="control-label ">Nome completo da
-                                                                    mãe
+                                                            <div class="form-group col-md-12"
+                                                                style="display: flex; flex-direction: column; justify-content: flex-start; ">
+                                                                <label class="control-label"
+                                                                    style="text-align: left;"><b>HÁ PENDÊNCIAS A SEREM
+                                                                        BAIXADAS?</b>
                                                                     <span class="required"> * </span>
                                                                 </label>
-                                                                <div class="">
-                                                                    <input id="cep" type="text" class="form-control">
-
+                                                                <div class="form-group" style="margin-top: 20px;">
+                                                                    <div class="col-md-12">
+                                                                        <div class="radio-list"
+                                                                            style="display: flex; flex-direction: column; justify-content: flex-start;">
+                                                                            <label style="text-align: left;">
+                                                                                <div class="radio"
+                                                                                    style="padding-top: 3px !important;"
+                                                                                    id="uniform-optionsRadios22">
+                                                                                    <span class=""
+                                                                                        style="margin-top: -1px !important;"><input
+                                                                                            type="radio"
+                                                                                            name="optionsRadios2"
+                                                                                            id="sim" value="sim"
+                                                                                            checked=""></span></div>
+                                                                                SIM
+                                                                            </label>
+                                                                            <label style="text-align: left;">
+                                                                                <div class="radio"
+                                                                                    style="padding-top: 3px !important;"
+                                                                                    id="uniform-optionsRadios23">
+                                                                                    <span class="checked"
+                                                                                        style="margin-top: -1px !important"><input
+                                                                                            type="radio"
+                                                                                            name="optionsRadios2"
+                                                                                            id="não" value="não"
+                                                                                            checked=""></span></div>
+                                                                                NÃO
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-
                                                             </div>
-
-                                                            <div class="form-group col-md-6">
-                                                                <label class="control-label ">Nome
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="">
-                                                                    <input id="cep" type="text" class="form-control">
-
+                                                            <fieldset disabled style="align-self: flex-start;">
+                                                                <div class="form-group col-md-12"
+                                                                    style="display: flex; flex-direction: column; justify-content: flex-start; ">
+                                                                    <label class="control-label"
+                                                                        style="text-align: left;"><b>APENAS IMPOSIÇÃO DE
+                                                                            MULTA?</b>
+                                                                        <span class="required"> * </span>
+                                                                    </label>
+                                                                    <div class="form-group" style="margin-top: 20px;"
+                                                                        aria-disabled="true" disabled>
+                                                                        <div class="col-md-12">
+                                                                            <div class="radio-list"
+                                                                                style="display: flex; flex-direction: column; justify-content: flex-start;">
+                                                                                <label style="text-align: left;">
+                                                                                    <div class="radio"
+                                                                                        style="padding-top: 3px !important;"
+                                                                                        id="uniform-optionsRadios22">
+                                                                                        <span class=""
+                                                                                            style="margin-top: -1px !important;"><input
+                                                                                                type="radio"
+                                                                                                name="optionsRadios3"
+                                                                                                id="sim" value="sim"
+                                                                                                checked=""></span>
+                                                                                    </div>
+                                                                                    SIM
+                                                                                </label>
+                                                                                <label style="text-align: left;">
+                                                                                    <div class="radio"
+                                                                                        style="padding-top: 3px !important;"
+                                                                                        id="uniform-optionsRadios23">
+                                                                                        <span class="checked"
+                                                                                            style="margin-top: -1px !important"><input
+                                                                                                type="radio"
+                                                                                                name="optionsRadios3"
+                                                                                                id="não" value="não"
+                                                                                                checked=""></span>
+                                                                                    </div>
+                                                                                    NÃO
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-
-                                                            </div>
-
-                                                            <div class="form-group col-md-6">
-                                                                <!-- <label class="control-label ">Nome completo
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-                                                                        </div> -->
-
-                                                            </div>
-                                                            <div class="form-group col-md-6">
-                                                                <label class="control-label ">Data de Nascimento
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="">
-                                                                    <input id="cep" type="date" class="form-control">
-
+                                                            </fieldset>
+                                                            <div class="panel-group accordion col-md-12"
+                                                                id="accordion1">
+                                                                <div class="panel panel-default">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="panel-title">
+                                                                            <a class="accordion-toggle collapsed"
+                                                                                data-toggle="collapse"
+                                                                                data-parent="#accordion1"
+                                                                                href="#collapse_1" aria-expanded="false"
+                                                                                style="text-align: left;">
+                                                                                Pendências </a>
+                                                                        </h4>
+                                                                    </div>
+                                                                    <div id="collapse_1" class="panel-collapse collapse"
+                                                                        aria-expanded="true" style="">
+                                                                        <div class="panel-body">
+                                                                            <p> ESPAÇO PARA COLOCAR OS DADOS
+                                                                            </p>
+                                                                            <p>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-
-                                                            </div>
-                                                            <div class="form-group col-md-6">
-                                                                <label class="control-label ">Nome Social
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="">
-                                                                    <input id="cep" type="text" class="form-control">
-
-                                                                </div>
-
-                                                            </div>
-                                                            <div class="form-group col-md-6">
-                                                                <label class="control-label ">E-mail
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="">
-                                                                    <input id="cep" type="email" class="form-control">
-
-                                                                </div>
-
-                                                            </div>
-                                                            <div class="form-group col-md-6">
-                                                                <label class="control-label ">Confirmação do
-                                                                    E-mail
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="">
-                                                                    <input id="cep" type="email" class="form-control">
-
-                                                                </div>
-
-                                                            </div>
-                                                            <div class="form-group col-md-6">
-                                                                <label class="control-label ">Telefone
-                                                                    Residencial / Celular
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="">
-                                                                    <input id="cep" type="te]" class="form-control">
-
-                                                                </div>
-
-                                                            </div>
-                                                            <div class="form-group col-md-6">
-                                                                <label class="control-label ">Telefone
-                                                                    Secundário
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="">
-                                                                    <input id="cep" type="tel" class="form-control">
-
+                                                                <div class="panel panel-default">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="panel-title">
+                                                                            <a class="accordion-toggle collapsed"
+                                                                                data-toggle="collapse"
+                                                                                data-parent="#accordion1"
+                                                                                href="#collapse_2" aria-expanded="false"
+                                                                                style="text-align: left;">Embasamentos
+                                                                                Legais </a>
+                                                                        </h4>
+                                                                    </div>
+                                                                    <div id="collapse_2" class="panel-collapse collapse"
+                                                                        aria-expanded="false" style="height: 0px;">
+                                                                        <div class="panel-body"
+                                                                            style="height:200px; overflow-y:auto;">
+                                                                            <p> ESPAÇO PARA COLOCAR OS DADOS
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1449,7 +1506,8 @@
                                                                     <span class="required"> * </span>
                                                                 </label>
                                                                 <div class="">
-                                                                    <input id="password" type="password" class="form-control">
+                                                                    <input id="password" type="password"
+                                                                        class="form-control">
 
                                                                 </div>
 
@@ -1459,7 +1517,8 @@
                                                                     <span class="required"> * </span>
                                                                 </label>
                                                                 <div class="">
-                                                                    <input id="password_confirmed" type="password" class="form-control">
+                                                                    <input id="password_confirmed" type="password"
+                                                                        class="form-control">
                                                                 </div>
 
                                                             </div>
