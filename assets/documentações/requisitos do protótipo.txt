@@ -1,0 +1,11 @@
+acordion de pendências só vai ser exibido quando selecionar a opção sim do input RADIO
+
+acordion de embasamentos legais só vai ser exibido quando finalizar processo da primeira pergunta
+
+Acordion de embasamentos legais deve vir após selecionar as pendências (se houver)
+
+Se o RADIO "não" na parte de pendências for selecionado tabém exibir o acordion de embasamentos legais
+
+acordion de embasamentos legais deve ter uma informação para selecionar textos já pronto e também digitar manualmente
+
+na opção de ITCD manter a segunda pergunta desabilitada e somente habilitar se a oção da primeira pergunta for "NÃO"
