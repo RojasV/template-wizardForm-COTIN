@@ -20,7 +20,7 @@ class InputObserver {
         this.questaoImposicaoMulta = document.getElementsByClassName('questao-imposicao-multa')
         this.questaoImposicaoMultaCollection = [...this.questaoImposicaoMulta]
 
-        this.setViewByRadioValue()
+      
         this.getRadioValue()
 
     }
@@ -37,11 +37,8 @@ class InputObserver {
                 console.log(radioValue)
 
                 this.setViewByRadioValue(radioValue)
-
             })
         })
-
-
     }
 
     setViewByRadioValue(param) {
@@ -126,13 +123,8 @@ class InputObserver {
                 default:
                     break;
             }
-
         }
-
     }
-
-
-
 }
 
 window.app = new InputObserver()
