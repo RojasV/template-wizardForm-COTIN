@@ -3,24 +3,15 @@ class InputObserver {
     constructor() {
 
         this.radioInputs = document.querySelectorAll("input[type='radio']")
-        this.radioInputsCollection = [...this.radioInputs]
-
-        this.questonarioPendenciasElement = document.getElementsByClassName('questionario-pendencias')
-        this.questonarioPendenciasElementCollection = [...this.questonarioPendenciasElement]
-
-        this.pendenciasElement = document.getElementsByClassName('pendencias')
-        this.pendenciasElementCollection = [...this.pendenciasElement]
-
-        this.embasamentosLegaisElement = document.getElementsByClassName('embasamentos-legais')
-        this.embasamentosLegaisCollection = [...this.embasamentosLegaisElement]
-
-        this.questaoITCDElement = document.getElementsByClassName('questao-itcd')
-        this.questaoITCDElementCollection = [...this.questaoITCDElement]
-
-        this.questaoImposicaoMulta = document.getElementsByClassName('questao-imposicao-multa')
-        this.questaoImposicaoMultaCollection = [...this.questaoImposicaoMulta]
-
-      
+        this.questonarioPendenciasElement = document.querySelector('.questionario-pendencias')
+        this.pendenciasElement = document.querySelector('.pendencias')
+        this.embasamentosLegaisElement = document.querySelector('.embasamentos-legais')
+        this.questaoITCDElement = document.querySelector('.questao-itcd')
+        this.questaoImposicaoMulta = document.querySelector('.questao-imposicao-multa')
+        this.pendeciasPainel = document.querySelector('.panel-collapse')
+        this.embasamentosPainel = document.querySelector('.panel-collapse-embasamentos')
+        
+             
         this.getRadioValue()
 
     }
@@ -29,7 +20,7 @@ class InputObserver {
 
         let radioValue = null
 
-        this.radioInputsCollection.forEach(input => {
+        this.radioInputs.forEach(input => {
             input.addEventListener('change', e => {
 
                 radioValue = e.target.value
@@ -50,12 +41,12 @@ class InputObserver {
             switch (param) {
                 case 'icms':
 
-                    console.log(this.questonarioPendenciasElementCollection)
+                    console.log(this.questonarioPendenciasElement)
 
-                    this.pendenciasElementCollection[0].style.display = 'none'
-                    this.embasamentosLegaisCollection[0].style.display = 'none'
-                    this.questaoITCDElement[0].style.display = 'none'
-                    this.questonarioPendenciasElementCollection[0].style.display = 'flex'
+                    this.pendenciasElement.style.display = 'none'
+                    this.embasamentosLegaisElement.style.display = 'none'
+                    this.questaoITCDElement.style.display = 'none'
+                    this.questonarioPendenciasElement.style.display = 'flex'
 
                     break;
 
@@ -63,10 +54,10 @@ class InputObserver {
 
                     console.log('mostrar div do itcd')
 
-                    this.pendenciasElementCollection[0].style.display = 'none'
-                    this.embasamentosLegaisCollection[0].style.display = 'none'
-                    this.questonarioPendenciasElementCollection[0].style.display = 'none'
-                    this.questaoITCDElement[0].style.display = 'flex'
+                    this.pendenciasElement.style.display = 'none'
+                    this.embasamentosLegaisElement.style.display = 'none'
+                    this.questonarioPendenciasElement.style.display = 'none'
+                    this.questaoITCDElement.style.display = 'flex'
 
                     break;
 
@@ -74,17 +65,18 @@ class InputObserver {
 
                     console.log('mostrar acordion pendencias')
 
-                    this.pendenciasElementCollection[0].style.display = 'block'
-                    this.embasamentosLegaisCollection[0].style.display = 'block'
-
+                    this.pendenciasElement.style.display = 'block'
+                    this.pendeciasPainel.classList.add('in')
+                    this.embasamentosLegaisElement.style.display = 'none'
+                   
                     break;
 
                 case 'não':
 
                     console.log('esconder acordion pendencias')
 
-                    this.pendenciasElementCollection[0].style.display = 'none'
-                    this.embasamentosLegaisCollection[0].style.display = 'block'
+                    this.pendenciasElement.style.display = 'none'
+                    this.embasamentosLegaisElement.style.display = 'block'
 
                     break;
 
@@ -92,15 +84,18 @@ class InputObserver {
 
                     console.log('exibir questao de imposição de multa')
 
-                    this.questaoImposicaoMultaCollection[0].style.display = 'block'
-
+                    this.embasamentosLegaisElement.style.display = 'block'
+                    this.embasamentosPainel.classList.add('in')
+                    this.questaoImposicaoMulta.style.display = 'none'
+                    
                     break;
 
                 case 'não-itcd':
 
                     console.log('esconder questao de imposição de multa')
 
-                    this.questaoImposicaoMultaCollection[0].style.display = 'none'
+                    this.questaoImposicaoMulta.style.display = 'block'
+                    this.embasamentosLegaisElement.style.display = 'none'
 
                     break;
 
@@ -108,7 +103,8 @@ class InputObserver {
 
                     console.log('exibir embasamentos legais')
 
-                    this.embasamentosLegaisCollection[0].style.display = 'block'
+                    this.embasamentosLegaisElement.style.display = 'block'
+                    this.embasamentosPainel.classList.add('in')
 
                     break;
 
@@ -116,7 +112,8 @@ class InputObserver {
 
                     console.log('exibir embasamentos legais')
 
-                    this.embasamentosLegaisCollection[0].style.display = 'block'
+                    this.embasamentosLegaisElement.style.display = 'block'
+                    this.embasamentosPainel.classList.add('in')
 
                     break;
 
@@ -125,6 +122,13 @@ class InputObserver {
             }
         }
     }
+
+    teste() {
+        this.embasamentosLegaisElement.style.display = 'block'
+        this.pendeciasPainel.classList.remove('in')
+        this.embasamentosPainel.classList.add('in')
+    }
 }
 
 window.app = new InputObserver()
+let inputObserver = new InputObserver()

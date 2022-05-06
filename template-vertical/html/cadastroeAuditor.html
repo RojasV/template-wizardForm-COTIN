@@ -121,6 +121,14 @@
     <div class="clearfix"> </div>
 
     <div class="page-container" style="background-color: white;">
+        <div class="col-md-12" style="display: flex; justify-content: center; flex-direction: column;">
+            <h1>TEMPLATE DE FORMULÁRIO WIZARD COTIN </h1>
+            <h4>- O código do template se encontra no diretório: /template-vertical/html/cadastroeAuditor.html </h4>
+            <h4>- Plugins de css utilizados estão no head do código com seus respectivos diretórios</h4>
+            <h4>- Plugins de JS utilizados estão no footer do código com seus respectivos diretórios</h4>
+            <h4>- Versão 1.0.0</h4>
+            <h4>- Autor: Vladimir André Rojas</h4>
+        </div>
         <div class="page-content-wrapper">
             <!-- BEGIN CONTENT BODY -->
             <div class="portlet light bordered" id="form_wizard_1">
@@ -129,7 +137,7 @@
 
                         <span class="caption-subject font-red bold uppercase"> COMPLETE TODAS ETAPAS PARA FINALIZAR SEU
                             CADASTRO -
-                            <span class="step-title"> ETAPA 1 DE 5 </span>
+                            <span class="step-title"> ETAPA 1 DE (COLOCAR AQUI O NÚMERO DE ETAPAS DO FORMULÁRIO) </span>
                         </span>
                     </div>
 
@@ -150,49 +158,9 @@
                                             <span class="number"> 1 </span>
                                             <br>
                                             <span class="desc">
-                                                <i class="fa fa-check"></i> Dados do Contribuinte </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#tab2" data-toggle="tab" class="step">
-                                            <span class="number"> 2 </span>
-                                            <br>
-                                            <span class="desc">
                                                 <i class="fa fa-check"></i> Matéria Tributável (Fato Gerador) </span>
                                         </a>
                                     </li>
-
-                                    <li>
-                                        <a href="#tab3" data-toggle="tab" class="step">
-                                            <span class="number"> 3 </span>
-                                            <br>
-                                            <span class="desc">
-                                                <i class="fa fa-check"></i> Infrações / Demonstrativo do Crédito
-                                                Tributário</span>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#tab4" data-toggle="tab" class="step">
-                                            <span class="number"> 4 </span>
-                                            <br>
-                                            <span class="desc">
-                                                <i class="fa fa-check"></i> Anexos</span>
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#tab5" data-toggle="tab" class="step">
-                                            <span class="number"> 5 </span>
-                                            <br>
-                                            <span class="desc">
-                                                <i class="fa fa-check"></i> Visualização</span>
-                                        </a>
-                                    </li>
-
-
-
-
                                 </ul>
                                 <div id="bar" class="progress progress-striped" role="progressbar">
                                     <div class="progress-bar progress-bar-success" style="width: 20%;"> </div>
@@ -238,8 +206,8 @@
                                                                                         style="margin-top: -1px !important;"><input
                                                                                             type="radio"
                                                                                             name="optionsRadios"
-                                                                                            id="icms" value="icms"
-                                                                                           ></span></div>
+                                                                                            id="icms"
+                                                                                            value="icms"></span></div>
                                                                                 ICMS
                                                                             </label>
                                                                             <label>
@@ -250,8 +218,8 @@
                                                                                         style="margin-top: -1px !important"><input
                                                                                             type="radio"
                                                                                             name="optionsRadios"
-                                                                                            id="itcd" value="itcd"
-                                                                                            ></span></div>
+                                                                                            id="itcd"
+                                                                                            value="itcd"></span></div>
                                                                                 ITCD
                                                                             </label>
                                                                             <label>
@@ -262,8 +230,8 @@
                                                                                         style="margin-top: -1px !important;"><input
                                                                                             type="radio"
                                                                                             name="optionsRadios"
-                                                                                            id="taxa" value="taxa"
-                                                                                            ></span></div>
+                                                                                            id="taxa"
+                                                                                            value="taxa"></span></div>
                                                                                 TAXA
                                                                             </label>
                                                                         </div>
@@ -271,7 +239,8 @@
                                                                 </div>
 
                                                             </div>
-                                                            <div id="questionario-pendencias" class="questionario-pendencias form-group col-md-12"
+                                                            <div id="questionario-pendencias"
+                                                                class="questionario-pendencias form-group col-md-12"
                                                                 style="flex-direction: column; justify-content: flex-start; display: none; ">
                                                                 <label class="control-label"
                                                                     style="text-align: left;"><b>HÁ PENDÊNCIAS A SEREM
@@ -290,8 +259,8 @@
                                                                                         style="margin-top: -1px !important;"><input
                                                                                             type="radio"
                                                                                             name="optionsRadios2"
-                                                                                            id="sim" value="sim"
-                                                                                            ></span></div>
+                                                                                            id="sim" value="sim"></span>
+                                                                                </div>
                                                                                 SIM
                                                                             </label>
                                                                             <label style="text-align: left;">
@@ -302,8 +271,8 @@
                                                                                         style="margin-top: -1px !important"><input
                                                                                             type="radio"
                                                                                             name="optionsRadios2"
-                                                                                            id="não" value="não"
-                                                                                            ></span></div>
+                                                                                            id="não" value="não"></span>
+                                                                                </div>
                                                                                 NÃO
                                                                             </label>
                                                                         </div>
@@ -330,8 +299,8 @@
                                                                                         style="margin-top: -1px !important;"><input
                                                                                             type="radio"
                                                                                             name="optionsRadios3"
-                                                                                            id="sim" value="sim-itcd"
-                                                                                            ></span>
+                                                                                            id="sim"
+                                                                                            value="sim-itcd"></span>
                                                                                 </div>
                                                                                 SIM
                                                                             </label>
@@ -343,15 +312,16 @@
                                                                                         style="margin-top: -1px !important"><input
                                                                                             type="radio"
                                                                                             name="optionsRadios3"
-                                                                                            id="não" value="não-itcd"
-                                                                                           ></span>
+                                                                                            id="não"
+                                                                                            value="não-itcd"></span>
                                                                                 </div>
                                                                                 NÃO
                                                                             </label>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <fieldset class="questao-imposicao-multa" style="align-self: flex-start; display: none;">
+                                                                <fieldset class="questao-imposicao-multa"
+                                                                    style="align-self: flex-start; display: none;">
                                                                     <div class="form-group col-md-12"
                                                                         style="display: flex; flex-direction: column; justify-content: flex-start; ">
                                                                         <label class="control-label"
@@ -374,8 +344,8 @@
                                                                                                 style="margin-top: -1px !important;"><input
                                                                                                     type="radio"
                                                                                                     name="optionsRadios4"
-                                                                                                    id="sim" value="sim-imposicao"
-                                                                                                    ></span>
+                                                                                                    id="sim"
+                                                                                                    value="sim-imposicao"></span>
                                                                                         </div>
                                                                                         SIM
                                                                                     </label>
@@ -387,8 +357,8 @@
                                                                                                 style="margin-top: -1px !important"><input
                                                                                                     type="radio"
                                                                                                     name="optionsRadios4"
-                                                                                                    id="não" value="não-imposicao"
-                                                                                                    ></span>
+                                                                                                    id="não"
+                                                                                                    value="não-imposicao"></span>
                                                                                         </div>
                                                                                         NÃO
                                                                                     </label>
@@ -398,9 +368,11 @@
                                                                     </div>
                                                                 </fieldset>
                                                             </div>
-                                                            <div  class="panel-group accordion col-md-12"
+                                                            <div class="panel-group accordion col-md-12"
                                                                 style="padding: unset !important;" id="accordion1">
-                                                                <div id="pendencias" class=" pendencias panel panel-default" style="display: none;">
+                                                                <div id="pendencias"
+                                                                    class=" pendencias panel panel-default"
+                                                                    style="display: none;">
                                                                     <div class="panel-heading">
                                                                         <h4 class="panel-title">
                                                                             <a class="accordion-toggle collapsed"
@@ -413,15 +385,118 @@
                                                                     </div>
                                                                     <div id="collapse_1" class="panel-collapse collapse"
                                                                         aria-expanded="true" style="">
-                                                                        <div class="panel-body">
-                                                                            <p> ESPAÇO PARA COLOCAR OS DADOS
-                                                                            </p>
-                                                                            <p>
-                                                                            </p>
+                                                                        <div class="panel-body"
+                                                                            style="display: flex; flex-wrap: wrap;">
+                                                                            <div class="col-md-12">
+                                                                                <table
+                                                                                    style="width: 100%; border: 1px solid #efefef;">
+                                                                                    <thead>
+                                                                                        <tr
+                                                                                            style="border-bottom: 1px solid #efefef;">
+                                                                                            <td></td>
+                                                                                            <td
+                                                                                                style="text-align: left; font-size: 16px; padding: 10px 0px;">
+                                                                                                Artigo</td>
+                                                                                            <td
+                                                                                                style="text-align: left; font-size: 16px;">
+                                                                                                Descrição</td>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr
+                                                                                            style="padding: 5px; border: 1px solid #efefef;">
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                <label>
+                                                                                                    <div class="radio"
+                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
+                                                                                                        id="uniform-optionsRadios22">
+                                                                                                        <span class=""
+                                                                                                            style="margin-top: -1px !important;"><input
+                                                                                                                type="radio"
+                                                                                                                name="optionsRadios5"
+                                                                                                                id="pendencias-opcao"
+                                                                                                                value="pendencias-opcao"></span>
+                                                                                                    </div>
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                ICMS</td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                Realizou mutações
+                                                                                                patrimoniais em
+                                                                                                sucessão...</td>
+                                                                                        </tr>
+                                                                                        <tr
+                                                                                            style="padding: 5px; border: 1px solid #efefef;">
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                <label>
+                                                                                                    <div class="radio"
+                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
+                                                                                                        id="uniform-optionsRadios22">
+                                                                                                        <span class=""
+                                                                                                            style="margin-top: -1px !important;"><input
+                                                                                                                type="radio"
+                                                                                                                name="optionsRadios5"
+                                                                                                                id="pendencias-opcao"
+                                                                                                                value="pendencias-opcao"></span>
+                                                                                                    </div>
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                ICMS</td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                Realizou mutações
+                                                                                                patrimoniais em
+                                                                                                sucessão...</td>
+                                                                                        </tr>
+                                                                                        <tr
+                                                                                            style="padding: 5px; border: 1px solid #efefef;">
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                <label>
+                                                                                                    <div class="radio"
+                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
+                                                                                                        id="uniform-optionsRadios22">
+                                                                                                        <span class=""
+                                                                                                            style="margin-top: -1px !important;"><input
+                                                                                                                type="radio"
+                                                                                                                name="optionsRadios5"
+                                                                                                                id="pendencias-opcao"
+                                                                                                                value="pendencias-opcao"></span>
+                                                                                                    </div>
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                ICMS</td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                Realizou mutações
+                                                                                                patrimoniais em
+                                                                                                sucessão...</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                            <div class="col-md-12"
+                                                                                style="display: flex; justify-content: end; margin-top: 10px;">
+                                                                                <a class="btn btn-outline green"
+                                                                                    onclick="inputObserver.teste()"
+                                                                                    id="confirmar">
+                                                                                    CONFIRMAR
+                                                                                </a>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="embasamentos-legais panel panel-default" style="display: none;">
+                                                                <div class="embasamentos-legais panel panel-default"
+                                                                    style="display: none;">
                                                                     <div class="panel-heading">
                                                                         <h4 class="panel-title">
                                                                             <a class="accordion-toggle collapsed"
@@ -432,1301 +507,114 @@
                                                                                 Legais </a>
                                                                         </h4>
                                                                     </div>
-                                                                    <div id="collapse_2" class="panel-collapse collapse"
+                                                                    <div id="collapse_2"
+                                                                        class="panel-collapse panel-collapse-embasamentos collapse"
                                                                         aria-expanded="false" style="height: 0px;">
-                                                                        <div class="panel-body"
-                                                                            style="height:200px; overflow-y:auto;">
-                                                                            <p> ESPAÇO PARA COLOCAR OS DADOS
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane " id="tab2" style="text-align: center;">
-                                        <div class="portlet box blue">
-                                            <div class="portlet-title">
-                                                <div class="caption">
-                                                    Informe seus Dados De Itendificação abaixo
-                                                </div>
-                                            </div>
-                                            <div class="portlet-body">
-                                                <div
-                                                    style="display: flex; justify-content: space-around; flex-direction: row; flex-wrap: wrap;">
-                                                    <div class="row-fluid col-md-12"
-                                                        style="text-align: left; margin-bottom: 2rem; ">
-                                                        <div class="span12">
-                                                            <input id="psa_estrangeira" name="psa_estrangeira"
-                                                                type="checkbox" value="true"><input
-                                                                name="psa_estrangeira" type="hidden" value="false">
-                                                            <label for="psa_estrangeira">Pessoa
-                                                                estrangeira?</label>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="form-group col-md-4">
-                                                        <label class="control-label ">Número de
-                                                            Identidade
-                                                            ou Passaporte
-                                                            <span class="required"> * </span>
-                                                        </label>
-                                                        <div class="">
-                                                            <input id="cep" type="text" class="form-control">
-
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="form-group col-md-4">
-                                                        <label class="control-label ">Órgão Emissor
-                                                            <span class="required"> * </span>
-                                                        </label>
-                                                        <div class="">
-                                                            <input id="cep" type="text" class="form-control">
-
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="form-group col-md-4">
-                                                        <label class="control-label ">UF/Órgão
-                                                            <span class="required"> * </span>
-                                                        </label>
-                                                        <div class="">
-                                                            <input id="cep" type="text" class="form-control">
-
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="form-group col-md-6">
-                                                        <label class="control-label ">Data de Emissão
-                                                            <span class="required"> * </span>
-                                                        </label>
-                                                        <div class="">
-                                                            <input id="cep" type="text" class="form-control">
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group col-md-6">
-                                                        <label class="control-label ">Data de Nascimento
-                                                            <span class="required"> * </span>
-                                                        </label>
-                                                        <div class="">
-                                                            <input id="cep" type="text" class="form-control">
-
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="accordion-group " style="margin-top: 2rem; ">
-                                                        <div class="accordion-heading" style="margin-bottom: 2rem;">
-                                                            <a class="accordion-toggle" data-toggle="collapse">
-                                                                Documentos
-                                                            </a>
-                                                        </div>
-                                                        <div id="collapseAgenfa" class="accordion-body collapse in">
-                                                            <div class="accordion-inner">
-                                                                <div class="row-fluid" style="">
-                                                                    <div class="row-fluid">
-                                                                        <div class="row-fluid" style="margin-top:10px">
-                                                                            <div class="row-fluid" id="div_arquivo_0">
-                                                                                <div class="span5 col-md-6">
-                                                                                    <select
-                                                                                        id="documentos_0__tpd_codigo"
-                                                                                        name="documentos[0].tpd_codigo"
-                                                                                        style="width:98%">
-                                                                                        <option value="">
-                                                                                            SELECIONE O
-                                                                                            TIPO
-                                                                                            DE
-                                                                                            DOCUMENTO...
-                                                                                        </option>
-                                                                                        <option value="87">
-                                                                                            Certidão de
-                                                                                            Casamento
-                                                                                            com
-                                                                                            averbação de
-                                                                                            Separação ou
-                                                                                            Divórcio ou
-                                                                                            Instrumento
-                                                                                            Particular
-                                                                                            de
-                                                                                            Dissolução
-                                                                                            de
-                                                                                            Contrato de
-                                                                                            União
-                                                                                            Estável
-                                                                                        </option>
-                                                                                        <option value="86">
-                                                                                            Certidão de
-                                                                                            Casamento ou
-                                                                                            Escritura
-                                                                                            Pública
-                                                                                            Declaratória
-                                                                                            de
-                                                                                            União
-                                                                                            Estável
-                                                                                        </option>
-                                                                                        <option value="94">
-                                                                                            Certidão de
-                                                                                            Óbito do
-                                                                                            Contribuinte
-                                                                                        </option>
-                                                                                        <option value="197">
-                                                                                            Documento de
-                                                                                            Identidade
-                                                                                            Oficial ou
-                                                                                            Registro
-                                                                                            Administrativo
-                                                                                            de
-                                                                                            Nascimento
-                                                                                            de
-                                                                                            Indígena
-                                                                                            (RANI)
-                                                                                        </option>
-                                                                                        <option value="129">
-                                                                                            Documento de
-                                                                                            Identidade
-                                                                                            ou
-                                                                                            Passaporte*
-                                                                                        </option>
-                                                                                        <option value="98">
-                                                                                            Outros
-                                                                                            Documentos
-                                                                                            Comprobatórios
-                                                                                        </option>
-                                                                                        <option value="74">
-                                                                                            Prova de
-                                                                                            inscrição no
-                                                                                            CPF/MF
-                                                                                        </option>
-                                                                                        <option value="130">
-                                                                                            Termo de
-                                                                                            Compromisso
-                                                                                            de
-                                                                                            Inventariante
-                                                                                        </option>
-                                                                                    </select>
-                                                                                </div>
-                                                                                <div class="span7 col-md-4">
-                                                                                    <input type="file"
-                                                                                        name="documentos[0].doc_arquivo"
-                                                                                        id="documentos_0__doc_arquivo"
-                                                                                        onchange="ArquivoAlterado(0, this)"
-                                                                                        accept=".pdf, .doc, .docx, .jpg, .jpeg, .png, .bmp, .zip, .rar">
-                                                                                </div>
-                                                                                <br>
-                                                                                <hr>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="span7">
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="tab-pane " id="tab3" style="text-align: center;">
-                                        <div class="portlet box blue">
-                                            <div class="portlet-title">
-                                                <div class="caption">
-                                                    Informe seus Dados de Endereço nas abas laterais abaixo
-                                                </div>
-
-                                                <div class="" style="margin-top: 3px;">
-
-                                                    <a class="btn btn-success btn-small pull-right"
-                                                        onclick="habilitarAssistência()">
-                                                        <span class="icon-book icon-white center"></span><span
-                                                            id="assistencia-titulo">Habilitar
-                                                            assistência de campos </span>
-                                                    </a>
-                                                </div>
-
-
-                                            </div>
-                                            <div class="portlet-body">
-                                                <div class="row">
-                                                    <div class="col-md-3 col-sm-3 col-xs-3">
-                                                        <ul class="nav nav-tabs tabs-left" style="height: 400px;">
-                                                            <li class="active">
-                                                                <a href="#tab_7_1" data-toggle="tab"
-                                                                    aria-expanded="false">
-                                                                    Endereço
-                                                                </a>
-                                                            </li>
-                                                            <li class="">
-                                                                <a href="#tab_7_2" data-toggle="tab"
-                                                                    aria-expanded="false">
-                                                                    Endereço de Correspondência
-                                                                </a>
-                                                            </li>
-
-
-
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-md-9 col-sm-9 col-xs-9">
-                                                        <div class="tab-content">
-                                                            <div class="tab-pane active in" id="tab_7_1">
-
-                                                                <div class="col-md-12"
-                                                                    style="display: flex; justify-content: space-around; flex-direction: row; flex-wrap: wrap;">
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">CEP
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top"
-                                                                                    data-content="descrição de como preencher o campo"
-                                                                                    data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">LOGRADOURO
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top"
-                                                                                    data-content="descrição de como preencher o campo"
-                                                                                    data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">NÚMERO
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">COMPLEMENTO
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">REFERÊNCIA
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">BAIRRO
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">UF
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">MUNICÍPIO /
-                                                                            DISTRITO
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="accordion-group "
-                                                                        style="margin-top: 2rem; ">
-                                                                        <div class="accordion-heading"
-                                                                            style="margin-bottom: 2rem;">
-                                                                            <a class="accordion-toggle"
-                                                                                data-toggle="collapse">
-                                                                                Documentos
-                                                                            </a>
-                                                                        </div>
-
-                                                                        <div id="collapseAgenfa"
-                                                                            class="accordion-body collapse in">
-                                                                            <div class="accordion-inner">
-                                                                                <div class="row-fluid" style="">
-                                                                                    <div class="row-fluid">
-                                                                                        <div class="row-fluid"
-                                                                                            style="margin-top:10px">
-                                                                                            <div class="row-fluid"
-                                                                                                id="div_arquivo_0">
-                                                                                                <div
-                                                                                                    class="span5 col-md-6">
-                                                                                                    <select
-                                                                                                        id="documentos_0__tpd_codigo"
-                                                                                                        name="documentos[0].tpd_codigo"
-                                                                                                        style="width:98%">
-                                                                                                        <option
-                                                                                                            value="">
-                                                                                                            SELECIONE O
-                                                                                                            TIPO
-                                                                                                            DE
-                                                                                                            DOCUMENTO...
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="87">
-                                                                                                            Certidão de
-                                                                                                            Casamento
-                                                                                                            com
-                                                                                                            averbação de
-                                                                                                            Separação ou
-                                                                                                            Divórcio ou
-                                                                                                            Instrumento
-                                                                                                            Particular
-                                                                                                            de
-                                                                                                            Dissolução
-                                                                                                            de
-                                                                                                            Contrato de
-                                                                                                            União
-                                                                                                            Estável
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="86">
-                                                                                                            Certidão de
-                                                                                                            Casamento ou
-                                                                                                            Escritura
-                                                                                                            Pública
-                                                                                                            Declaratória
-                                                                                                            de
-                                                                                                            União
-                                                                                                            Estável
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="94">
-                                                                                                            Certidão de
-                                                                                                            Óbito do
-                                                                                                            Contribuinte
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="197">
-                                                                                                            Documento de
-                                                                                                            Identidade
-                                                                                                            Oficial ou
-                                                                                                            Registro
-                                                                                                            Administrativo
-                                                                                                            de
-                                                                                                            Nascimento
-                                                                                                            de
-                                                                                                            Indígena
-                                                                                                            (RANI)
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="129">
-                                                                                                            Documento de
-                                                                                                            Identidade
-                                                                                                            ou
-                                                                                                            Passaporte*
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="98">
-                                                                                                            Outros
-                                                                                                            Documentos
-                                                                                                            Comprobatórios
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="74">
-                                                                                                            Prova de
-                                                                                                            inscrição no
-                                                                                                            CPF/MF
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="130">
-                                                                                                            Termo de
-                                                                                                            Compromisso
-                                                                                                            de
-                                                                                                            Inventariante
-                                                                                                        </option>
-                                                                                                    </select>
-                                                                                                </div>
-                                                                                                <div
-                                                                                                    class="span7 col-md-4">
-                                                                                                    <input type="file"
-                                                                                                        name="documentos[0].doc_arquivo"
-                                                                                                        id="documentos_0__doc_arquivo"
-                                                                                                        onchange="ArquivoAlterado(0, this)"
-                                                                                                        accept=".pdf, .doc, .docx, .jpg, .jpeg, .png, .bmp, .zip, .rar">
-                                                                                                </div>
-                                                                                                <br>
-                                                                                                <hr>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="span7">
-
-
-                                                                                        </div>
-                                                                                    </div>
-
-
-
-
-                                                                                </div>
+                                                                        <div class="panel-body">
+                                                                            <div class="col-md-12">
+                                                                                <table
+                                                                                    style="width: 100%; border: 1px solid #efefef;">
+                                                                                    <thead>
+                                                                                        <tr
+                                                                                            style="border-bottom: 1px solid #efefef;">
+                                                                                            <td></td>
+                                                                                            <td
+                                                                                                style="text-align: left; font-size: 16px; padding: 10px 0px;">
+                                                                                                Artigo</td>
+                                                                                            <td
+                                                                                                style="text-align: left; font-size: 16px;">
+                                                                                                Descrição</td>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr
+                                                                                            style="padding: 5px; border: 1px solid #efefef;">
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                <label>
+                                                                                                    <div class="radio"
+                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
+                                                                                                        id="uniform-optionsRadios22">
+                                                                                                        <span class=""
+                                                                                                            style="margin-top: -1px !important;"><input
+                                                                                                                type="radio"
+                                                                                                                name="optionsRadios6"
+                                                                                                                id="embasamentos-opcao"
+                                                                                                                value="embasamentos-opcao"></span>
+                                                                                                    </div>
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                ICMS</td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                Texto do embasamento
+                                                                                                legal...</td>
+                                                                                        </tr>
+                                                                                        <tr
+                                                                                            style="padding: 5px; border: 1px solid #efefef;">
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                <label>
+                                                                                                    <div class="radio"
+                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
+                                                                                                        id="uniform-optionsRadios22">
+                                                                                                        <span class=""
+                                                                                                            style="margin-top: -1px !important;"><input
+                                                                                                                type="radio"
+                                                                                                                name="optionsRadios6"
+                                                                                                                id="embasamentos-opcao"
+                                                                                                                value="embasamentos-opcao"></span>
+                                                                                                    </div>
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                ICMS</td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                Texto do embasamento
+                                                                                                legal...</td>
+                                                                                        </tr>
+                                                                                        <tr
+                                                                                            style="padding: 5px; border: 1px solid #efefef;">
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                <label>
+                                                                                                    <div class="radio"
+                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
+                                                                                                        id="uniform-optionsRadios22">
+                                                                                                        <span class=""
+                                                                                                            style="margin-top: -1px !important;"><input
+                                                                                                                type="radio"
+                                                                                                                name="optionsRadios6"
+                                                                                                                id="embasamentos-opcao"
+                                                                                                                value="embasamentos-opcao"></span>
+                                                                                                    </div>
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                ICMS</td>
+                                                                                            <td
+                                                                                                style="text-align: left; padding: 10px 0px;">
+                                                                                                Texto do embasamento
+                                                                                                legal...</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-
-
-
-
                                                                 </div>
-
-
                                                             </div>
-                                                            <div class="tab-pane fade" id="tab_7_2">
-
-                                                                <div class="col-md-12"
-                                                                    style="display: flex; justify-content: space-around; flex-direction: row; flex-wrap: wrap;">
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">CEP
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top"
-                                                                                    data-content="descrição de como preencher o campo"
-                                                                                    data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">LOGRADOURO
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top"
-                                                                                    data-content="descrição de como preencher o campo"
-                                                                                    data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">NÚMERO
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">COMPLEMENTO
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">REFERÊNCIA
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">BAIRRO
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">UF
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                    <div class="form-group col-md-6"
-                                                                        style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
-                                                                        <label class="control-label col-md-12"
-                                                                            style="text-align: center;">MUNICÍPIO /
-                                                                            DISTRITO
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="col-md-11">
-                                                                            <input id="cep" type="text"
-                                                                                class="form-control">
-
-
-
-                                                                        </div>
-
-                                                                        <div class="col-md-1"
-                                                                            style="padding: 0; display: none;">
-                                                                            <span class="input-group-addon"
-                                                                                style="padding: 0px;">
-                                                                                <button class="btn btn-default popovers"
-                                                                                    data-container="body"
-                                                                                    data-trigger="hover"
-                                                                                    data-placement="top" data-content=" descrição de como preencher o campo
-      " data-original-title="Título do campo">
-
-                                                                                    <i class="fa fa-question"
-                                                                                        style="color: red;"></i>
-                                                                                </button>
-
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                    </div>
-
-                                                                    <div class="accordion-group "
-                                                                        style="margin-top: 2rem; ">
-                                                                        <div class="accordion-heading"
-                                                                            style="margin-bottom: 2rem;">
-                                                                            <a class="accordion-toggle"
-                                                                                data-toggle="collapse">
-                                                                                Documentos
-                                                                            </a>
-                                                                        </div>
-
-                                                                        <div id="collapseAgenfa"
-                                                                            class="accordion-body collapse in">
-                                                                            <div class="accordion-inner">
-                                                                                <div class="row-fluid" style="">
-                                                                                    <div class="row-fluid">
-                                                                                        <div class="row-fluid"
-                                                                                            style="margin-top:10px">
-                                                                                            <div class="row-fluid"
-                                                                                                id="div_arquivo_0">
-                                                                                                <div
-                                                                                                    class="span5 col-md-6">
-                                                                                                    <select
-                                                                                                        id="documentos_0__tpd_codigo"
-                                                                                                        name="documentos[0].tpd_codigo"
-                                                                                                        style="width:98%">
-                                                                                                        <option
-                                                                                                            value="">
-                                                                                                            SELECIONE O
-                                                                                                            TIPO
-                                                                                                            DE
-                                                                                                            DOCUMENTO...
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="87">
-                                                                                                            Certidão de
-                                                                                                            Casamento
-                                                                                                            com
-                                                                                                            averbação de
-                                                                                                            Separação ou
-                                                                                                            Divórcio ou
-                                                                                                            Instrumento
-                                                                                                            Particular
-                                                                                                            de
-                                                                                                            Dissolução
-                                                                                                            de
-                                                                                                            Contrato de
-                                                                                                            União
-                                                                                                            Estável
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="86">
-                                                                                                            Certidão de
-                                                                                                            Casamento ou
-                                                                                                            Escritura
-                                                                                                            Pública
-                                                                                                            Declaratória
-                                                                                                            de
-                                                                                                            União
-                                                                                                            Estável
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="94">
-                                                                                                            Certidão de
-                                                                                                            Óbito do
-                                                                                                            Contribuinte
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="197">
-                                                                                                            Documento de
-                                                                                                            Identidade
-                                                                                                            Oficial ou
-                                                                                                            Registro
-                                                                                                            Administrativo
-                                                                                                            de
-                                                                                                            Nascimento
-                                                                                                            de
-                                                                                                            Indígena
-                                                                                                            (RANI)
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="129">
-                                                                                                            Documento de
-                                                                                                            Identidade
-                                                                                                            ou
-                                                                                                            Passaporte*
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="98">
-                                                                                                            Outros
-                                                                                                            Documentos
-                                                                                                            Comprobatórios
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="74">
-                                                                                                            Prova de
-                                                                                                            inscrição no
-                                                                                                            CPF/MF
-                                                                                                        </option>
-                                                                                                        <option
-                                                                                                            value="130">
-                                                                                                            Termo de
-                                                                                                            Compromisso
-                                                                                                            de
-                                                                                                            Inventariante
-                                                                                                        </option>
-                                                                                                    </select>
-                                                                                                </div>
-                                                                                                <div
-                                                                                                    class="span7 col-md-4">
-                                                                                                    <input type="file"
-                                                                                                        name="documentos[0].doc_arquivo"
-                                                                                                        id="documentos_0__doc_arquivo"
-                                                                                                        onchange="ArquivoAlterado(0, this)"
-                                                                                                        accept=".pdf, .doc, .docx, .jpg, .jpeg, .png, .bmp, .zip, .rar">
-                                                                                                </div>
-                                                                                                <br>
-                                                                                                <hr>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="span7">
-
-
-                                                                                        </div>
-                                                                                    </div>
-
-
-
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-
-
-
-                                                                </div>
-
-
-                                                            </div>
-
-
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
-
-                                    <div class="tab-pane" id="tab4" style="">
-                                        <div class="portlet box blue">
-                                            <div class="portlet-title">
-                                                <div class="caption">
-                                                    Cadastre sua Senha para acesso ao ICMS
-                                                </div>
-
-                                            </div>
-                                            <div class="portlet-body">
-                                                <div class="row">
-
-
-                                                    <div class="tab-content">
-                                                        <div class="col-md-12"
-                                                            style="display: flex; justify-content: space-around; flex-direction: row; flex-wrap: wrap;">
-
-                                                            <div class="form-group col-md-6">
-                                                                <label class="control-label">Digite sua Senha
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="">
-                                                                    <input id="password" type="password"
-                                                                        class="form-control">
-
-                                                                </div>
-
-                                                            </div>
-                                                            <div class="form-group col-md-6">
-                                                                <label class="control-label ">Confirme sua Senha
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="">
-                                                                    <input id="password_confirmed" type="password"
-                                                                        class="form-control">
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="tab-pane" id="tab5" style="">
-                                        <div class="portlet light bordered">
-                                            <div class="portlet-body form">
-                                                <!-- BEGIN FORM-->
-                                                <form class="form-horizontal" role="form">
-                                                    <div class="form-body">
-                                                        <h2 class="margin-bottom-20"> Verifique suas informações -
-                                                            Caroline Iung </h2>
-                                                        <h3 class="form-section">Informações Pessoais</h3>
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label class="control-label col-md-3">Primeiro
-                                                                        Nome:</label>
-                                                                    <div class="col-md-9">
-                                                                        <p class="form-control-static"> Caroline </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/span-->
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label class="control-label col-md-3">Último
-                                                                        Nome:</label>
-                                                                    <div class="col-md-9">
-                                                                        <p class="form-control-static"> Iung </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/span-->
-                                                        </div>
-                                                        <!--/row-->
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label
-                                                                        class="control-label col-md-3">Gênero:</label>
-                                                                    <div class="col-md-9">
-                                                                        <p class="form-control-static"> Feminino </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/span-->
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label class="control-label col-md-3">Data de
-                                                                        Nascimento:</label>
-                                                                    <div class="col-md-9">
-                                                                        <p class="form-control-static"> 20.01.1984 </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/span-->
-                                                        </div>
-                                                        <!--/row-->
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label
-                                                                        class="control-label col-md-3">Categoria:</label>
-                                                                    <div class="col-md-9">
-                                                                        <p class="form-control-static"> Category1 </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/span-->
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label class="control-label col-md-3">Estado
-                                                                        Civil:</label>
-                                                                    <div class="col-md-9">
-                                                                        <p class="form-control-static"> Casado(a) </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/span-->
-                                                        </div>
-                                                        <!--/row-->
-                                                        <h3 class="form-section">Endereço</h3>
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label
-                                                                        class="control-label col-md-3">Endereço:</label>
-                                                                    <div class="col-md-9">
-                                                                        <p class="form-control-static"> Rua José, 25,
-                                                                            Itanhangá</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label
-                                                                        class="control-label col-md-3">Cidade:</label>
-                                                                    <div class="col-md-9">
-                                                                        <p class="form-control-static"> Campo Grande
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/span-->
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label
-                                                                        class="control-label col-md-3">Estado:</label>
-                                                                    <div class="col-md-9">
-                                                                        <p class="form-control-static"> Mato Grosso do
-                                                                            Sul </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/span-->
-                                                        </div>
-                                                        <!--/row-->
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label class="control-label col-md-3">Código Postal
-                                                                        (CEP):</label>
-                                                                    <div class="col-md-9">
-                                                                        <p class="form-control-static"> 12345-123 </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/span-->
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label class="control-label col-md-3">País:</label>
-                                                                    <div class="col-md-9">
-                                                                        <p class="form-control-static"> Brasil </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--/span-->
-                                                        </div>
-                                                    </div>
-
-                                                </form>
-                                                <!-- END FORM-->
-                                            </div>
-                                        </div>
-
-                                        <br>
-                                        <div style="text-align: center;">
-                                            <input class="input_box" name="checkbox" type="checkbox" value="termo"
-                                                id="termoConcordado" />
-                                            <p class="texto_box">Eu li, entendi e concordo com estas regras e condições.
-                                            </p>
-                                        </div>
-
-                                    </div>
-
-
-
-
                     </form>
                     <!-- END FORM-->
                 </div>
@@ -1765,541 +653,6 @@
 
     </div>
     </div>
-
-    <div id="addCarModal" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <form>
-                    <div class="modal-header">
-                        <h4 class="modal-title">
-                            Preencha os campos
-                            para adicionar a
-                            nova propriedade.
-                            Atenção! Você pode
-                            selecionar somente 1
-                            (um) tipo de
-                            proprietário para um
-                            ou múltiplos CARs
-                        </h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row "
-                            style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center;">
-
-                            <div class="col-md-12">
-                                <h3 style="border-bottom: 1px solid #efefef;">
-                                    Adicionar
-                                    CAR</h3>
-                            </div>
-
-                            <div class="col-md-12"
-                                style="display: flex; align-items: center; justify-content: space-around; margin-top: 2rem;">
-                                <span class="col-md-6" style="text-align: left;">
-                                    Município
-                                    Selecionado:
-                                    Caarapo
-                                </span>
-
-                                <span class="col-md-6" style="text-align: left;">
-                                    Condição do
-                                    Produtor
-                                    Selecionado:
-                                    Proprietário
-                                </span>
-                            </div>
-
-                            <div class="col-md-12"
-                                style="display: flex; align-items: center; justify-content: baseline; margin-top: 2rem;">
-
-                                <div class="col-md-3">
-
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Selecione
-                                            o
-                                            CAR</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                            <option>
-                                                CARMS001234
-                                            </option>
-                                            <option>
-                                                CARMS004321
-                                            </option>
-
-                                        </select>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-md-3" style="display: flex; padding-top: 1rem;">
-
-                                    <a class="btn btn-success btn-small pull-right">
-                                        <span class="icon-book icon-white center"></span><span>Mapa
-                                            do
-                                            CAR</span>
-                                    </a>
-
-
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-12" style="display: flex; align-items: center; ">
-
-                                <div class="col-md-3">
-
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">
-                                            Área
-                                            Total
-                                            do
-                                            CAR
-                                            (ha)</label>
-                                        <input type="text" class="form-control" id="exampleFormControlSelect1">
-                                    </div>
-
-                                </div>
-
-
-
-
-
-
-
-                            </div>
-
-                            <div class="col-md-6" style="display: flex; align-items: center; ">
-
-                                <div class="col-md-12" style="display: flex;">
-
-                                    <div class="form-group" style="display: flex;
-                                    flex-direction: row;
-                                    flex-wrap: wrap;">
-                                        <label for="exampleFormControlSelect1">
-                                            Parcela
-                                            da
-                                            área
-                                            do
-                                            CAR
-                                            que
-                                            pertence
-                                            a
-                                            essa
-                                            Inscrição</label>
-                                        <input type="text" class="form-control" id="exampleFormControlSelect1"
-                                            style="width: unset;">
-
-                                        <input type="text" class="form-control " id="exampleFormControlSelect1"
-                                            style="margin-left: 2rem; width: unset;">
-                                    </div>
-
-                                </div>
-
-
-
-
-                            </div>
-
-                            <div class="col-md-12" style="display: flex; align-items: center; ">
-
-                                <div class="col-md-3">
-
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">
-                                            Área
-                                            utilizada
-                                            para
-                                            produção
-                                            própria:</label>
-                                        <input type="text" class="form-control" id="exampleFormControlSelect1">
-
-                                    </div>
-
-                                </div>
-
-
-
-
-                            </div>
-
-                            <div class="col-md-12" style="display: flex; align-items: center">
-
-
-                                <div class="col-md-3">
-
-                                    <a class="btn btn-success btn-small pull-right col-md-12">
-                                        <span class="icon-book icon-white center"></span><span>Adicionar</span>
-                                    </a>
-
-
-                                </div>
-
-                            </div>
-
-
-
-
-                            <div class="table-responsive col-md-12" style="margin-top: 2rem;">
-                                <div class="table-wrapper">
-
-                                    <table class="table table-striped table-hover" style="text-align: center;">
-                                        <thead style="text-align: center;">
-                                            <tr style="text-align: center;">
-
-                                                <th style="text-align: center;">
-                                                    Sede
-                                                    da
-                                                    Propriedade
-                                                </th>
-                                                <th style="text-align: center;">
-                                                    CAR
-                                                </th>
-                                                <th style="text-align: center;">
-                                                    Matrícula(s)
-                                                </th>
-
-                                                <th style="text-align: center;">
-                                                    Área
-                                                    Total
-                                                </th>
-
-                                                <th style="text-align: center;">
-                                                    Área
-                                                    Utilizada
-                                                </th>
-
-
-                                                <th style="text-align: center;">
-                                                    Ações
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <input id="psa_estrangeira" name="psa_estrangeira" type="checkbox"
-                                                        value="true"><input name="psa_estrangeira" type="hidden"
-                                                        value="false">
-                                                </td>
-                                                <td>CARMS001234
-                                                </td>
-                                                <td>
-
-                                                    9870/6543
-                                                </td>
-
-                                                <td>
-
-                                                    83.00
-                                                </td>
-
-                                                <td>
-
-                                                    5.00
-                                                </td>
-
-
-                                                <td>
-
-                                                    <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i
-                                                            class="fa fa-trash"></i></a>
-
-                                                    <a class="btn btn-success btn-small pull-right">
-                                                        <span class="icon-book icon-white center"></span><span>Mapa
-                                                            do
-                                                            CAR</span>
-                                                    </a>
-                                                </td>
-                                            </tr>
-
-
-
-
-                                        </tbody>
-                                    </table>
-
-
-                                    <div id="deleteEmployeeModal" class="modal fade" style="display: none;"
-                                        aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <form>
-                                                    <div class="modal-header">
-                                                        <h4 class="modal-title">
-                                                            Deletar
-                                                            Propriedade
-                                                        </h4>
-                                                        <button type="button" class="close" data-dismiss="modal"
-                                                            aria-hidden="true">×</button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <p>Tem
-                                                            certeza
-                                                            que
-                                                            deseja
-                                                            deletar
-                                                            esta
-                                                            propriedade?
-                                                        </p>
-                                                        <p class="text-warning">
-                                                            <small>Está
-                                                                ação
-                                                                não
-                                                                poderá
-                                                                ser
-                                                                desfeita!</small>
-                                                        </p>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <input type="button" class="btn btn-default"
-                                                            data-dismiss="modal" value="Cancel">
-                                                        <input type="submit" class="btn btn-danger" value="Delete">
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="clearfix" style="position: relative; text-align: left;">
-                                        <div class="hint-text">
-                                            Mostrando
-                                            <b>5</b>
-                                            de
-                                            <b>25</b>
-                                            cadastros
-                                        </div>
-                                        <ul class="pagination">
-                                            <li class="page-item disabled">
-                                                <a href="#">Anterior</a>
-                                            </li>
-                                            <li class="page-item active">
-                                                <a href="#" class="page-link">1</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a href="#" class="page-link">2</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a href="#" class="page-link">3</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a href="#" class="page-link">4</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a href="#" class="page-link">5</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a href="#" class="page-link">Próximo</a>
-                                            </li>
-                                        </ul>
-
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                        <div class="row "
-                            style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center;">
-
-                            <div class="col-md-12">
-                                <h3 style="border-bottom: 1px solid #efefef;">
-                                    Dados da
-                                    Sede</h3>
-                            </div>
-
-                            <div class="col-md-12"
-                                style="display: flex; align-items: center; justify-content: space-around; margin-top: 2rem;">
-                                <span class="col-md-6" style="text-align: left;">
-                                    Tipo da
-                                    Propriedade:
-                                    Fazenda
-                                </span>
-
-                                <span class="col-md-6" style="text-align: left;">
-                                    Nome da
-                                    Propriedade:
-                                    Faz Nova
-                                    Esperança
-                                </span>
-                            </div>
-
-                            <div class="col-md-12"
-                                style="display: flex; align-items: center; justify-content: baseline; margin-top: 2rem;">
-
-                                <div class="col-md-3">
-
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Número
-                                            do
-                                            INCRA</label>
-                                        <input type="text" class="form-control" id="exampleFormControlSelect1">
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-3">
-
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Número
-                                            do
-                                            NIRF</label>
-                                        <input type="text" class="form-control" id="exampleFormControlSelect1">
-                                    </div>
-
-                                </div>
-
-
-
-
-                            </div>
-
-                            <div class="col-md-12" style="display: flex; align-items: center; ">
-
-                                <div class="col-md-3">
-
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">
-                                            Área
-                                            Total
-                                            (ha)</label>
-                                        <input type="text" class="form-control" id="exampleFormControlSelect1">
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-3">
-
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">
-                                            Área
-                                            utilizada
-                                            para
-                                            produção
-                                            própria
-                                            (ha)</label>
-                                        <input type="text" class="form-control" id="exampleFormControlSelect1">
-                                    </div>
-
-                                </div>
-
-
-
-
-
-
-
-                            </div>
-
-                            <div class="col-md-12" style="display: flex; align-items: center; ">
-
-                                <div class="col-md-3">
-
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">
-                                            Área
-                                            dos
-                                            Vínculos
-                                            (ha)</label>
-                                        <input type="text" class="form-control" id="exampleFormControlSelect1">
-
-
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-3">
-
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">
-                                            Área
-                                            Disponível
-                                            +
-                                            Áreas
-                                            Protegidas
-                                            (RL,
-                                            APP,
-                                            APA,
-                                            etc)</label>
-                                        <input type="text" class="form-control" id="exampleFormControlSelect1">
-
-
-                                    </div>
-
-                                </div>
-
-
-
-
-                            </div>
-
-                            <div class="col-md-12" style="display: flex; align-items: center; ">
-
-
-                                <div class="row-fluid" style="margin-top: 2rem;">
-                                    <div id="end-alt" class="msg-end-corresp alert alert-info" style="">
-                                        <b>Aviso:</b>
-                                        Ao
-                                        terminar
-                                        de
-                                        adicionar
-                                        todos os
-                                        CARs e
-                                        suas
-                                        informações
-                                        <br>
-                                        desta
-                                        propriedade,
-                                        clique
-                                        no botão
-                                        "salvar"!
-                                    </div>
-
-                                </div>
-
-
-
-                            </div>
-
-                            <div class="col-md-12" style="display: flex; align-items: center">
-
-
-                                <div class="col-md-3">
-
-
-                                    <span class="btn btn-success col-md-12" value="Add"
-                                        data-dismiss="modal">SALVAR</span>
-
-
-
-                                </div>
-
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <!-- <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel"> -->
-
-                        <a class="btn btn-cancel btn-small pull-right" data-dismiss="modal" value="cancel" style="background-color: red;
-                                                                                        color: white;">
-                            <i class="fa fa-times"></i>
-                            <span class="icon-book icon-white center"></span><span>Fechar
-                            </span>
-                        </a>
-
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -2364,19 +717,6 @@
         });
     </script>
 
-    <script>
-        //FUNÇÕES PARA HABILITAR / DESABILITAR o cadastro de nova propriedade
-
-        function hideProperties() {
-            $('#tabelaPropriedades')[0].style.display = 'none'
-                ('#tabelaPropriedades')[0].style.display = 'block'
-        }
-
-        function showProperties() {
-            $('#tabelaPropriedades')[0].style.display = 'none'
-                ('#tabelaPropriedades')[0].style.display = 'block'
-        }
-    </script>
 </body>
 
 </html>
