@@ -142,7 +142,8 @@
                     </div>
 
                     <div>
-                        <a class="btn btn-success btn-small pull-right" onclick="ImprimirManualMaster(1);">
+                        <a class="btn btn-success btn-small pull-right" data-toggle="modal"
+                            data-target="#tutorialFormulario">
                             <span class="icon-book icon-white center"></span><span>Tutorial do Formulário</span>
                         </a>
                     </div>
@@ -159,6 +160,30 @@
                                             <br>
                                             <span class="desc">
                                                 <i class="fa fa-check"></i> Matéria Tributável (Fato Gerador) </span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#tab2" data-toggle="tab" class="step" aria-expanded="true">
+                                            <span class="number"> 2 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> Etapa 2 </span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#tab3" data-toggle="tab" class="step" aria-expanded="true">
+                                            <span class="number"> 3 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> Etapa 3 </span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#tab4" data-toggle="tab" class="step" aria-expanded="true">
+                                            <span class="number"> 4 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> Etapa 4 </span>
                                         </a>
                                     </li>
                                 </ul>
@@ -615,6 +640,63 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="tab-pane  " id="tab2" style="text-align: center;">
+                                        <div class="portlet box blue">
+                                            <div class="portlet-title">
+                                                <div class="caption">
+                                                    Espaço para colocar elementos do Formulário
+                                                </div>
+                                            </div>
+                                            <div class="portlet-body">
+                                                <div class="row">
+                                                    <div class="tab-content">
+                                                        <div class="col-md-12"
+                                                            style="display: flex; justify-content:center; align-items:center">
+                                                            <h1>INSIRA NO CÓDIGO OS ELEMENTOS DESEJADOS</h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane  " id="tab3" style="text-align: center;">
+                                        <div class="portlet box blue">
+                                            <div class="portlet-title">
+                                                <div class="caption">
+                                                    Espaço para colocar elementos do Formulário
+                                                </div>
+                                            </div>
+                                            <div class="portlet-body">
+                                                <div class="row">
+                                                    <div class="tab-content">
+                                                        <div class="col-md-12"
+                                                            style="display: flex; justify-content:center; align-items:center">
+                                                            <h1>INSIRA NO CÓDIGO OS ELEMENTOS DESEJADOS</h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane  " id="tab4" style="text-align: center;">
+                                        <div class="portlet box blue">
+                                            <div class="portlet-title">
+                                                <div class="caption">
+                                                    Espaço para colocar elementos do Formulário
+                                                </div>
+                                            </div>
+                                            <div class="portlet-body">
+                                                <div class="row">
+                                                    <div class="tab-content">
+                                                        <div class="col-md-12"
+                                                            style="display: flex; justify-content:center; align-items:center">
+                                                            <h1>INSIRA NO CÓDIGO OS ELEMENTOS DESEJADOS</h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                     </form>
                     <!-- END FORM-->
                 </div>
@@ -652,6 +734,51 @@
     <!-- QUICK SIDEBAR -->
 
     </div>
+    </div>
+
+    <div class="modal fade" id="tutorialFormulario" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel"><b>
+                            Tutorial do formulário (este tutorial é dinâmico e
+                            sempre serão implementadas novas orientações)
+                        </b> </h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>
+                        1 - Para utilizar este template serão necessários os plugins mencionados na página principal.
+                        Estes plugins serão atualizados conforme necessidade e será informada neste tutorial a
+                        atualização do mesmo.
+                        <br>
+                        <br>
+                        2 - Após configurar os plugins corretamente no código de desenvolvimento, você pode inserir todo
+                        o conteúdo na tag 'body' do seu código e já poderá visualizar o template no seu navegador.
+                        <br>
+                        <br>
+                        3 - Caso queira inserir uma nova etapa, você deve replicar um elemento 'li' dentro da 'ul' na linha 156, assim como os existentes na lista e dar a ele seu respecitvo ID.
+                        <br>
+                        <br>
+                        4 - Caso queira inserir elementos de formulário dentro da nova etapa, você deve inserir na div de classe 'tab-content', na linha 193, uma div com a classe 'tab-pane' e o mesmo ID que deu na 'li' criada.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        Em caso de dúvidas envie um email para: vrojas@fazenda.ms.gov.br
+                    </h3>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- FOOTER -->
