@@ -8348,7 +8348,7 @@ Custom colored portlets
   color: #fdfdfd; }
 
 .portlet.box.blue {
-  border: 1px solid #60aee4;
+  border: 1px solid rgb(229, 229, 229);
   border-top: 0; }
   .portlet.box.blue > .portlet-title {
     background-color: #3598dc; }

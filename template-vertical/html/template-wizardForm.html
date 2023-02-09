@@ -7,7 +7,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>SGI Template - Repositório do Template</title>
+    <title>COTIN</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
@@ -121,16 +121,7 @@
     <div class="clearfix"> </div>
 
     <div class="page-container" style="background-color: white;">
-        <div class="col-md-12" style="display: flex; justify-content: center; flex-direction: column;">
-            <h1>TEMPLATE DE FORMULÁRIO WIZARD COTIN </h1>
-            <h4>- O repositório do template se encontra aqui: <a
-                    href="https://github.com/AI-Vlad/template-wizardForm-COTIN">Repositório do template</a> </h4>
-            <h4>- O código do template se encontra no diretório: /template-vertical/html/cadastroeAuditor.html </h4>
-            <h4>- Plugins de css utilizados estão no head do código com seus respectivos diretórios</h4>
-            <h4>- Plugins de JS utilizados estão no footer do código com seus respectivos diretórios</h4>
-            <h4>- Versão 1.0.0</h4>
-            <h4>- Autor: Vladimir André Rojas</h4>
-        </div>
+      
         <div class="page-content-wrapper">
             <!-- BEGIN CONTENT BODY -->
             <div class="portlet light bordered" id="form_wizard_1">
@@ -161,7 +152,7 @@
                                             <span class="number"> 1 </span>
                                             <br>
                                             <span class="desc">
-                                                <i class="fa fa-check"></i> Matéria Tributável (Fato Gerador) </span>
+                                                Etapa 1 </span>
                                         </a>
                                     </li>
                                     <li class="">
@@ -169,7 +160,7 @@
                                             <span class="number"> 2 </span>
                                             <br>
                                             <span class="desc">
-                                                <i class="fa fa-check"></i> Etapa 2 </span>
+                                                Etapa 2 </span>
                                         </a>
                                     </li>
                                     <li class="">
@@ -177,7 +168,7 @@
                                             <span class="number"> 3 </span>
                                             <br>
                                             <span class="desc">
-                                                <i class="fa fa-check"></i> Etapa 3 </span>
+                                                Etapa 3 </span>
                                         </a>
                                     </li>
                                     <li class="">
@@ -185,7 +176,7 @@
                                             <span class="number"> 4 </span>
                                             <br>
                                             <span class="desc">
-                                                <i class="fa fa-check"></i> Etapa 4 </span>
+                                                Etapa 4 </span>
                                         </a>
                                     </li>
                                 </ul>
@@ -213,429 +204,8 @@
                                                 <div class="row">
                                                     <div class="tab-content">
                                                         <div class="col-md-12"
-                                                            style="display: flex; justify-content: space-around; flex-direction: row; flex-wrap: wrap; justify-content: flex-start;">
-                                                            <div class="form-group col-md-12"
-                                                                style="display: flex; flex-direction: column; justify-content: flex-start;">
-                                                                <label class="control-label"
-                                                                    style="text-align: left;">SELECIONE A DESCRIÇÃO DA
-                                                                    MATÉRIA TRIBUTÁVEL (FATO GERADOR)
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="form-group" style="margin-top: 20px;">
-                                                                    <div class="col-md-12">
-                                                                        <div class="radio-list"
-                                                                            style="display: flex; flex-direction: row;">
-                                                                            <label>
-                                                                                <div class="radio"
-                                                                                    style="padding-top: 3px !important;"
-                                                                                    id="uniform-optionsRadios22"><span
-                                                                                        class=""
-                                                                                        style="margin-top: -1px !important;"><input
-                                                                                            type="radio"
-                                                                                            name="optionsRadios"
-                                                                                            id="icms"
-                                                                                            value="icms"></span></div>
-                                                                                ICMS
-                                                                            </label>
-                                                                            <label>
-                                                                                <div class="radio"
-                                                                                    style="padding-top: 3px !important;"
-                                                                                    id="uniform-optionsRadios23"><span
-                                                                                        class=""
-                                                                                        style="margin-top: -1px !important"><input
-                                                                                            type="radio"
-                                                                                            name="optionsRadios"
-                                                                                            id="itcd"
-                                                                                            value="itcd"></span></div>
-                                                                                ITCD
-                                                                            </label>
-                                                                            <label>
-                                                                                <div class="radio"
-                                                                                    style="padding-top: 3px !important;"
-                                                                                    id="uniform-optionsRadios24"><span
-                                                                                        class=""
-                                                                                        style="margin-top: -1px !important;"><input
-                                                                                            type="radio"
-                                                                                            name="optionsRadios"
-                                                                                            id="taxa"
-                                                                                            value="taxa"></span></div>
-                                                                                TAXA
-                                                                            </label>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                            <div id="questionario-pendencias"
-                                                                class="questionario-pendencias form-group col-md-12"
-                                                                style="flex-direction: column; justify-content: flex-start; display: none; ">
-                                                                <label class="control-label"
-                                                                    style="text-align: left;"><b>HÁ PENDÊNCIAS A SEREM
-                                                                        BAIXADAS?</b>
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="form-group" style="margin-top: 20px;">
-                                                                    <div class="col-md-12">
-                                                                        <div class="radio-list"
-                                                                            style="display: flex; flex-direction: column; justify-content: flex-start;">
-                                                                            <label style="text-align: left;">
-                                                                                <div class="radio"
-                                                                                    style="padding-top: 3px !important;"
-                                                                                    id="uniform-optionsRadios22">
-                                                                                    <span class=""
-                                                                                        style="margin-top: -1px !important;"><input
-                                                                                            type="radio"
-                                                                                            name="optionsRadios2"
-                                                                                            id="sim" value="sim"></span>
-                                                                                </div>
-                                                                                SIM
-                                                                            </label>
-                                                                            <label style="text-align: left;">
-                                                                                <div class="radio"
-                                                                                    style="padding-top: 3px !important;"
-                                                                                    id="uniform-optionsRadios23">
-                                                                                    <span class="checked"
-                                                                                        style="margin-top: -1px !important"><input
-                                                                                            type="radio"
-                                                                                            name="optionsRadios2"
-                                                                                            id="não" value="não"></span>
-                                                                                </div>
-                                                                                NÃO
-                                                                            </label>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="questao-itcd form-group col-md-12"
-                                                                style=" flex-direction: column; justify-content: flex-start; display: none; ">
-                                                                <label class="control-label"
-                                                                    style="text-align: left;"><b>LANÇAMENTO E IMPOSIÇÃO
-                                                                        DE MULTA?</b>
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="form-group" style="margin-top: 20px;"
-                                                                    aria-disabled="true" disabled>
-                                                                    <div class="col-md-12">
-                                                                        <div class="radio-list"
-                                                                            style="display: flex; flex-direction: column; justify-content: flex-start;">
-                                                                            <label style="text-align: left;">
-                                                                                <div class="radio"
-                                                                                    style="padding-top: 3px !important;"
-                                                                                    id="uniform-optionsRadios22">
-                                                                                    <span class=""
-                                                                                        style="margin-top: -1px !important;"><input
-                                                                                            type="radio"
-                                                                                            name="optionsRadios3"
-                                                                                            id="sim"
-                                                                                            value="sim-itcd"></span>
-                                                                                </div>
-                                                                                SIM
-                                                                            </label>
-                                                                            <label style="text-align: left;">
-                                                                                <div class="radio"
-                                                                                    style="padding-top: 3px !important;"
-                                                                                    id="uniform-optionsRadios23">
-                                                                                    <span class="checked"
-                                                                                        style="margin-top: -1px !important"><input
-                                                                                            type="radio"
-                                                                                            name="optionsRadios3"
-                                                                                            id="não"
-                                                                                            value="não-itcd"></span>
-                                                                                </div>
-                                                                                NÃO
-                                                                            </label>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <fieldset class="questao-imposicao-multa"
-                                                                    style="align-self: flex-start; display: none;">
-                                                                    <div class="form-group col-md-12"
-                                                                        style="display: flex; flex-direction: column; justify-content: flex-start; ">
-                                                                        <label class="control-label"
-                                                                            style="text-align: left;"><b>APENAS
-                                                                                IMPOSIÇÃO DE
-                                                                                MULTA?</b>
-                                                                            <span class="required"> * </span>
-                                                                        </label>
-                                                                        <div class="form-group"
-                                                                            style="margin-top: 20px;"
-                                                                            aria-disabled="true" disabled>
-                                                                            <div class="col-md-12">
-                                                                                <div class="radio-list"
-                                                                                    style="display: flex; flex-direction: column; justify-content: flex-start;">
-                                                                                    <label style="text-align: left;">
-                                                                                        <div class="radio"
-                                                                                            style="padding-top: 3px !important;"
-                                                                                            id="uniform-optionsRadios22">
-                                                                                            <span class=""
-                                                                                                style="margin-top: -1px !important;"><input
-                                                                                                    type="radio"
-                                                                                                    name="optionsRadios4"
-                                                                                                    id="sim"
-                                                                                                    value="sim-imposicao"></span>
-                                                                                        </div>
-                                                                                        SIM
-                                                                                    </label>
-                                                                                    <label style="text-align: left;">
-                                                                                        <div class="radio"
-                                                                                            style="padding-top: 3px !important;"
-                                                                                            id="uniform-optionsRadios23">
-                                                                                            <span class="checked"
-                                                                                                style="margin-top: -1px !important"><input
-                                                                                                    type="radio"
-                                                                                                    name="optionsRadios4"
-                                                                                                    id="não"
-                                                                                                    value="não-imposicao"></span>
-                                                                                        </div>
-                                                                                        NÃO
-                                                                                    </label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </fieldset>
-                                                            </div>
-                                                            <div class="panel-group accordion col-md-12"
-                                                                style="padding: unset !important;" id="accordion1">
-                                                                <div id="pendencias"
-                                                                    class=" pendencias panel panel-default"
-                                                                    style="display: none;">
-                                                                    <div class="panel-heading">
-                                                                        <h4 class="panel-title">
-                                                                            <a class="accordion-toggle collapsed"
-                                                                                data-toggle="collapse"
-                                                                                data-parent="#accordion1"
-                                                                                href="#collapse_1" aria-expanded="false"
-                                                                                style="text-align: left;">
-                                                                                Pendências </a>
-                                                                        </h4>
-                                                                    </div>
-                                                                    <div id="collapse_1" class="panel-collapse collapse"
-                                                                        aria-expanded="true" style="">
-                                                                        <div class="panel-body"
-                                                                            style="display: flex; flex-wrap: wrap;">
-                                                                            <div class="col-md-12">
-                                                                                <table
-                                                                                    style="width: 100%; border: 1px solid #efefef;">
-                                                                                    <thead>
-                                                                                        <tr
-                                                                                            style="border-bottom: 1px solid #efefef;">
-                                                                                            <td></td>
-                                                                                            <td
-                                                                                                style="text-align: left; font-size: 16px; padding: 10px 0px;">
-                                                                                                Artigo</td>
-                                                                                            <td
-                                                                                                style="text-align: left; font-size: 16px;">
-                                                                                                Descrição</td>
-                                                                                        </tr>
-                                                                                    </thead>
-                                                                                    <tbody>
-                                                                                        <tr
-                                                                                            style="padding: 5px; border: 1px solid #efefef;">
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                <label>
-                                                                                                    <div class="radio"
-                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
-                                                                                                        id="uniform-optionsRadios22">
-                                                                                                        <span class=""
-                                                                                                            style="margin-top: -1px !important;"><input
-                                                                                                                type="radio"
-                                                                                                                name="optionsRadios5"
-                                                                                                                id="pendencias-opcao"
-                                                                                                                value="pendencias-opcao"></span>
-                                                                                                    </div>
-                                                                                                </label>
-                                                                                            </td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                ICMS</td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                Realizou mutações
-                                                                                                patrimoniais em
-                                                                                                sucessão...</td>
-                                                                                        </tr>
-                                                                                        <tr
-                                                                                            style="padding: 5px; border: 1px solid #efefef;">
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                <label>
-                                                                                                    <div class="radio"
-                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
-                                                                                                        id="uniform-optionsRadios22">
-                                                                                                        <span class=""
-                                                                                                            style="margin-top: -1px !important;"><input
-                                                                                                                type="radio"
-                                                                                                                name="optionsRadios5"
-                                                                                                                id="pendencias-opcao"
-                                                                                                                value="pendencias-opcao"></span>
-                                                                                                    </div>
-                                                                                                </label>
-                                                                                            </td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                ICMS</td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                Realizou mutações
-                                                                                                patrimoniais em
-                                                                                                sucessão...</td>
-                                                                                        </tr>
-                                                                                        <tr
-                                                                                            style="padding: 5px; border: 1px solid #efefef;">
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                <label>
-                                                                                                    <div class="radio"
-                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
-                                                                                                        id="uniform-optionsRadios22">
-                                                                                                        <span class=""
-                                                                                                            style="margin-top: -1px !important;"><input
-                                                                                                                type="radio"
-                                                                                                                name="optionsRadios5"
-                                                                                                                id="pendencias-opcao"
-                                                                                                                value="pendencias-opcao"></span>
-                                                                                                    </div>
-                                                                                                </label>
-                                                                                            </td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                ICMS</td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                Realizou mutações
-                                                                                                patrimoniais em
-                                                                                                sucessão...</td>
-                                                                                        </tr>
-                                                                                    </tbody>
-                                                                                </table>
-                                                                            </div>
-                                                                            <div class="col-md-12"
-                                                                                style="display: flex; justify-content: end; margin-top: 10px;">
-                                                                                <a class="btn btn-outline green"
-                                                                                    onclick="inputObserver.teste()"
-                                                                                    id="confirmar">
-                                                                                    CONFIRMAR
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="embasamentos-legais panel panel-default"
-                                                                    style="display: none;">
-                                                                    <div class="panel-heading">
-                                                                        <h4 class="panel-title">
-                                                                            <a class="accordion-toggle collapsed"
-                                                                                data-toggle="collapse"
-                                                                                data-parent="#accordion1"
-                                                                                href="#collapse_2" aria-expanded="false"
-                                                                                style="text-align: left;">Embasamentos
-                                                                                Legais </a>
-                                                                        </h4>
-                                                                    </div>
-                                                                    <div id="collapse_2"
-                                                                        class="panel-collapse panel-collapse-embasamentos collapse"
-                                                                        aria-expanded="false" style="height: 0px;">
-                                                                        <div class="panel-body">
-                                                                            <div class="col-md-12">
-                                                                                <table
-                                                                                    style="width: 100%; border: 1px solid #efefef;">
-                                                                                    <thead>
-                                                                                        <tr
-                                                                                            style="border-bottom: 1px solid #efefef;">
-                                                                                            <td></td>
-                                                                                            <td
-                                                                                                style="text-align: left; font-size: 16px; padding: 10px 0px;">
-                                                                                                Artigo</td>
-                                                                                            <td
-                                                                                                style="text-align: left; font-size: 16px;">
-                                                                                                Descrição</td>
-                                                                                        </tr>
-                                                                                    </thead>
-                                                                                    <tbody>
-                                                                                        <tr
-                                                                                            style="padding: 5px; border: 1px solid #efefef;">
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                <label>
-                                                                                                    <div class="radio"
-                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
-                                                                                                        id="uniform-optionsRadios22">
-                                                                                                        <span class=""
-                                                                                                            style="margin-top: -1px !important;"><input
-                                                                                                                type="radio"
-                                                                                                                name="optionsRadios6"
-                                                                                                                id="embasamentos-opcao"
-                                                                                                                value="embasamentos-opcao"></span>
-                                                                                                    </div>
-                                                                                                </label>
-                                                                                            </td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                ICMS</td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                Texto do embasamento
-                                                                                                legal...</td>
-                                                                                        </tr>
-                                                                                        <tr
-                                                                                            style="padding: 5px; border: 1px solid #efefef;">
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                <label>
-                                                                                                    <div class="radio"
-                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
-                                                                                                        id="uniform-optionsRadios22">
-                                                                                                        <span class=""
-                                                                                                            style="margin-top: -1px !important;"><input
-                                                                                                                type="radio"
-                                                                                                                name="optionsRadios6"
-                                                                                                                id="embasamentos-opcao"
-                                                                                                                value="embasamentos-opcao"></span>
-                                                                                                    </div>
-                                                                                                </label>
-                                                                                            </td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                ICMS</td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                Texto do embasamento
-                                                                                                legal...</td>
-                                                                                        </tr>
-                                                                                        <tr
-                                                                                            style="padding: 5px; border: 1px solid #efefef;">
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                <label>
-                                                                                                    <div class="radio"
-                                                                                                        style="padding-top: 3px !important; display: flex; align-items: end;"
-                                                                                                        id="uniform-optionsRadios22">
-                                                                                                        <span class=""
-                                                                                                            style="margin-top: -1px !important;"><input
-                                                                                                                type="radio"
-                                                                                                                name="optionsRadios6"
-                                                                                                                id="embasamentos-opcao"
-                                                                                                                value="embasamentos-opcao"></span>
-                                                                                                    </div>
-                                                                                                </label>
-                                                                                            </td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                ICMS</td>
-                                                                                            <td
-                                                                                                style="text-align: left; padding: 10px 0px;">
-                                                                                                Texto do embasamento
-                                                                                                legal...</td>
-                                                                                        </tr>
-                                                                                    </tbody>
-                                                                                </table>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                            style="display: flex; justify-content:center; align-items:center">
+                                                            <h1>INSIRA NO CÓDIGO OS ELEMENTOS DESEJADOS</h1>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -719,7 +289,7 @@
                 <a style="display: none" onclick="alert('AO CLICAR EM CONCLUIR EXIBIR DAEMS E PDF PARA IMPRESSÃO')"
                     class="btn green " id="concluido" class="concluido">
                     CONCLUIR
-                    <i class="fa fa-check"></i>
+                   
                 </a>
 
             </div>
